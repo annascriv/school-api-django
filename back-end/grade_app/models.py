@@ -9,6 +9,6 @@ class Grade(models.Model):
 
     grade = models.DecimalField(decimal_places=2, max_digits=5, blank=True, default=100, unique=False, validators=[v.MinValueValidator(0.00), v.MaxValueValidator(100.00)])
 
-    a_subject = models.ForeignKey(Subject, on_delete=models.SET_NULL, null=True, blank=True, unique=False)
+    a_subject = models.ForeignKey(Subject, related_name='grades', on_delete=models.SET_NULL, null=True, blank=True, unique=False)
 
-    student = models.ForeignKey(Student, on_delete=models.SET_NULL, null=True, blank=True, unique=False)
+    student = models.ForeignKey(Student, related_name='grades', on_delete=models.SET_NULL, null=True, blank=True, unique=False)
