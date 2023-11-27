@@ -1,0 +1,62 @@
+[
+{
+  "model": "student_app.student",
+  "pk": 1,
+  "fields": {
+    "name": "Elsie",
+    "student_email": "else@google.com",
+    "personal_email": "elsieloo@google.com",
+    "locker_number": 22,
+    "locker_combination": "12-67-98",
+    "good_student": false
+  }
+},
+{
+  "model": "student_app.student",
+  "pk": 2,
+  "fields": {
+    "name": "Louise",
+    "student_email": "louise@google.com",
+    "personal_email": "louiseloo@google.com",
+    "locker_number": 23,
+    "locker_combination": "125",
+    "good_student": false
+  }
+},
+{
+  "model": "student_app.student",
+  "pk": 3,
+  "fields": {
+    "name": "Jane",
+    "student_email": "jane@google.com",
+    "personal_email": "janeloo@google.com",
+    "locker_number": 15,
+    "locker_combination": "15-67-98",
+    "good_student": true
+  }
+},
+{
+  "model": "student_app.student",
+  "pk": 4,
+  "fields": {
+    "name": "Lizzie",
+    "student_email": "lizziee@google.com",
+    "personal_email": "lizzieloo@google.com",
+    "locker_number": 11,
+    "locker_combination": "15-69-98",
+    "good_student": false
+  }
+},
+{
+  "model": "student_app.student",
+  "pk": 5,
+  "fields": {
+    "name": "Elinor",
+    "student_email": "elinor@gmail.com",
+    "personal_email": "elinorloo@gmail.com",
+    "locker_number": 107,
+    "locker_combination": "34-45-56",
+    "good_student": true
+  }
+}
+]
